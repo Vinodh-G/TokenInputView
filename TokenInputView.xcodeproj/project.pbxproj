@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87A820E51CCE2A7D00DC8AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A820E41CCE2A7D00DC8AB1 /* main.m */; };
+		87A820E81CCE2A7D00DC8AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A820E71CCE2A7D00DC8AB1 /* AppDelegate.m */; };
+		87A820EB1CCE2A7D00DC8AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A820EA1CCE2A7D00DC8AB1 /* ViewController.m */; };
+		87A820EE1CCE2A7D00DC8AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A820EC1CCE2A7D00DC8AB1 /* Main.storyboard */; };
+		87A820F01CCE2A7D00DC8AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A820EF1CCE2A7D00DC8AB1 /* Assets.xcassets */; };
+		87A820F31CCE2A7D00DC8AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A820F11CCE2A7D00DC8AB1 /* LaunchScreen.storyboard */; };
+		87A820FE1CCE2A7D00DC8AB1 /* TokenInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A820FD1CCE2A7D00DC8AB1 /* TokenInputViewTests.m */; };
+		87A821091CCE2A7D00DC8AB1 /* TokenInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A821081CCE2A7D00DC8AB1 /* TokenInputViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87A820FA1CCE2A7D00DC8AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A820D81CCE2A7D00DC8AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A820DF1CCE2A7D00DC8AB1;
+			remoteInfo = TokenInputView;
+		};
+		87A821051CCE2A7D00DC8AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A820D81CCE2A7D00DC8AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A820DF1CCE2A7D00DC8AB1;
+			remoteInfo = TokenInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87A820E01CCE2A7D00DC8AB1 /* TokenInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A820E41CCE2A7D00DC8AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87A820E61CCE2A7D00DC8AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87A820E71CCE2A7D00DC8AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87A820E91CCE2A7D00DC8AB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87A820EA1CCE2A7D00DC8AB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87A820ED1CCE2A7D00DC8AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87A820EF1CCE2A7D00DC8AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87A820F21CCE2A7D00DC8AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87A820F41CCE2A7D00DC8AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A820F91CCE2A7D00DC8AB1 /* TokenInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A820FD1CCE2A7D00DC8AB1 /* TokenInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenInputViewTests.m; sourceTree = "<group>"; };
+		87A820FF1CCE2A7D00DC8AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A821041CCE2A7D00DC8AB1 /* TokenInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A821081CCE2A7D00DC8AB1 /* TokenInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenInputViewUITests.m; sourceTree = "<group>"; };
+		87A8210A1CCE2A7D00DC8AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A820DD1CCE2A7D00DC8AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A820F61CCE2A7D00DC8AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A821011CCE2A7D00DC8AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87A820D71CCE2A7D00DC8AB1 = {
+			isa = PBXGroup;
+			children = (
+				87A820E21CCE2A7D00DC8AB1 /* TokenInputView */,
+				87A820FC1CCE2A7D00DC8AB1 /* TokenInputViewTests */,
+				87A821071CCE2A7D00DC8AB1 /* TokenInputViewUITests */,
+				87A820E11CCE2A7D00DC8AB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87A820E11CCE2A7D00DC8AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A820E01CCE2A7D00DC8AB1 /* TokenInputView.app */,
+				87A820F91CCE2A7D00DC8AB1 /* TokenInputViewTests.xctest */,
+				87A821041CCE2A7D00DC8AB1 /* TokenInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A820E21CCE2A7D00DC8AB1 /* TokenInputView */ = {
+			isa = PBXGroup;
+			children = (
+				87A820E61CCE2A7D00DC8AB1 /* AppDelegate.h */,
+				87A820E71CCE2A7D00DC8AB1 /* AppDelegate.m */,
+				87A820E91CCE2A7D00DC8AB1 /* ViewController.h */,
+				87A820EA1CCE2A7D00DC8AB1 /* ViewController.m */,
+				87A820EC1CCE2A7D00DC8AB1 /* Main.storyboard */,
+				87A820EF1CCE2A7D00DC8AB1 /* Assets.xcassets */,
+				87A820F11CCE2A7D00DC8AB1 /* LaunchScreen.storyboard */,
+				87A820F41CCE2A7D00DC8AB1 /* Info.plist */,
+				87A820E31CCE2A7D00DC8AB1 /* Supporting Files */,
+			);
+			path = TokenInputView;
+			sourceTree = "<group>";
+		};
+		87A820E31CCE2A7D00DC8AB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A820E41CCE2A7D00DC8AB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87A820FC1CCE2A7D00DC8AB1 /* TokenInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				87A820FD1CCE2A7D00DC8AB1 /* TokenInputViewTests.m */,
+				87A820FF1CCE2A7D00DC8AB1 /* Info.plist */,
+			);
+			path = TokenInputViewTests;
+			sourceTree = "<group>";
+		};
+		87A821071CCE2A7D00DC8AB1 /* TokenInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87A821081CCE2A7D00DC8AB1 /* TokenInputViewUITests.m */,
+				87A8210A1CCE2A7D00DC8AB1 /* Info.plist */,
+			);
+			path = TokenInputViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A8210D1CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputView" */;
+			buildPhases = (
+				87A820DC1CCE2A7D00DC8AB1 /* Sources */,
+				87A820DD1CCE2A7D00DC8AB1 /* Frameworks */,
+				87A820DE1CCE2A7D00DC8AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokenInputView;
+			productName = TokenInputView;
+			productReference = 87A820E01CCE2A7D00DC8AB1 /* TokenInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87A820F81CCE2A7D00DC8AB1 /* TokenInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A821101CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputViewTests" */;
+			buildPhases = (
+				87A820F51CCE2A7D00DC8AB1 /* Sources */,
+				87A820F61CCE2A7D00DC8AB1 /* Frameworks */,
+				87A820F71CCE2A7D00DC8AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A820FB1CCE2A7D00DC8AB1 /* PBXTargetDependency */,
+			);
+			name = TokenInputViewTests;
+			productName = TokenInputViewTests;
+			productReference = 87A820F91CCE2A7D00DC8AB1 /* TokenInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87A821031CCE2A7D00DC8AB1 /* TokenInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A821131CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputViewUITests" */;
+			buildPhases = (
+				87A821001CCE2A7D00DC8AB1 /* Sources */,
+				87A821011CCE2A7D00DC8AB1 /* Frameworks */,
+				87A821021CCE2A7D00DC8AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A821061CCE2A7D00DC8AB1 /* PBXTargetDependency */,
+			);
+			name = TokenInputViewUITests;
+			productName = TokenInputViewUITests;
+			productReference = 87A821041CCE2A7D00DC8AB1 /* TokenInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A820D81CCE2A7D00DC8AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vinodh Swamy";
+				TargetAttributes = {
+					87A820DF1CCE2A7D00DC8AB1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					87A820F81CCE2A7D00DC8AB1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 87A820DF1CCE2A7D00DC8AB1;
+					};
+					87A821031CCE2A7D00DC8AB1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 87A820DF1CCE2A7D00DC8AB1;
+					};
+				};
+			};
+			buildConfigurationList = 87A820DB1CCE2A7D00DC8AB1 /* Build configuration list for PBXProject "TokenInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87A820D71CCE2A7D00DC8AB1;
+			productRefGroup = 87A820E11CCE2A7D00DC8AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */,
+				87A820F81CCE2A7D00DC8AB1 /* TokenInputViewTests */,
+				87A821031CCE2A7D00DC8AB1 /* TokenInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A820DE1CCE2A7D00DC8AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A820F31CCE2A7D00DC8AB1 /* LaunchScreen.storyboard in Resources */,
+				87A820F01CCE2A7D00DC8AB1 /* Assets.xcassets in Resources */,
+				87A820EE1CCE2A7D00DC8AB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A820F71CCE2A7D00DC8AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A821021CCE2A7D00DC8AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A820DC1CCE2A7D00DC8AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A820EB1CCE2A7D00DC8AB1 /* ViewController.m in Sources */,
+				87A820E81CCE2A7D00DC8AB1 /* AppDelegate.m in Sources */,
+				87A820E51CCE2A7D00DC8AB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A820F51CCE2A7D00DC8AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A820FE1CCE2A7D00DC8AB1 /* TokenInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A821001CCE2A7D00DC8AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A821091CCE2A7D00DC8AB1 /* TokenInputViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87A820FB1CCE2A7D00DC8AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */;
+			targetProxy = 87A820FA1CCE2A7D00DC8AB1 /* PBXContainerItemProxy */;
+		};
+		87A821061CCE2A7D00DC8AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */;
+			targetProxy = 87A821051CCE2A7D00DC8AB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87A820EC1CCE2A7D00DC8AB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A820ED1CCE2A7D00DC8AB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87A820F11CCE2A7D00DC8AB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A820F21CCE2A7D00DC8AB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87A8210B1CCE2A7D00DC8AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87A8210C1CCE2A7D00DC8AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87A8210E1CCE2A7D00DC8AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TokenInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mycom.TokenInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87A8210F1CCE2A7D00DC8AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TokenInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mycom.TokenInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87A821111CCE2A7D00DC8AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TokenInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mycom.TokenInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokenInputView.app/TokenInputView";
+			};
+			name = Debug;
+		};
+		87A821121CCE2A7D00DC8AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TokenInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mycom.TokenInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokenInputView.app/TokenInputView";
+			};
+			name = Release;
+		};
+		87A821141CCE2A7D00DC8AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TokenInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mycom.TokenInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TokenInputView;
+			};
+			name = Debug;
+		};
+		87A821151CCE2A7D00DC8AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TokenInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mycom.TokenInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TokenInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A820DB1CCE2A7D00DC8AB1 /* Build configuration list for PBXProject "TokenInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A8210B1CCE2A7D00DC8AB1 /* Debug */,
+				87A8210C1CCE2A7D00DC8AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A8210D1CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A8210E1CCE2A7D00DC8AB1 /* Debug */,
+				87A8210F1CCE2A7D00DC8AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87A821101CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A821111CCE2A7D00DC8AB1 /* Debug */,
+				87A821121CCE2A7D00DC8AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87A821131CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A821141CCE2A7D00DC8AB1 /* Debug */,
+				87A821151CCE2A7D00DC8AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A820D81CCE2A7D00DC8AB1 /* Project object */;
+}
