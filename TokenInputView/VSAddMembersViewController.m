@@ -38,6 +38,7 @@ static NSString *kNameKey = @"Name";
 {
     [super viewDidLoad];
     self.addedMembersInputView.inPutViewDelegate = self;
+    self.title = @"Token Input View";
 }
 
 - (void)didReceiveMemoryWarning {

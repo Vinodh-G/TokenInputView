@@ -99,17 +99,10 @@
 		87A820E21CCE2A7D00DC8AB1 /* TokenInputView */ = {
 			isa = PBXGroup;
 			children = (
-				87FA00FC1CE63E3700BA95D5 /* VSAddMembersViewController.h */,
-				87FA00FD1CE63E3700BA95D5 /* VSAddMembersViewController.m */,
 				87FA00F51CE619FA00BA95D5 /* InputView */,
-				87A820E61CCE2A7D00DC8AB1 /* AppDelegate.h */,
-				87A820E71CCE2A7D00DC8AB1 /* AppDelegate.m */,
-				87A8211E1CCE346A00DC8AB1 /* UserListViewController.h */,
-				87A8211F1CCE346A00DC8AB1 /* UserListViewController.m */,
-				87A821231CCE34D300DC8AB1 /* UserTableCell.h */,
-				87A821241CCE34D300DC8AB1 /* UserTableCell.m */,
-				87A821251CCE34D300DC8AB1 /* UserTableCell.xib */,
-				87A821201CCE346A00DC8AB1 /* UserListViewController.xib */,
+				87FA01021CE64BA300BA95D5 /* ViewController */,
+				87FA01031CE64BB800BA95D5 /* AppDelegate */,
+				87FA01041CE64BD200BA95D5 /* Cells */,
 				87A820EC1CCE2A7D00DC8AB1 /* Main.storyboard */,
 				87A8211C1CCE32B300DC8AB1 /* UsersList.plist */,
 				87A820EF1CCE2A7D00DC8AB1 /* Assets.xcassets */,
@@ -146,6 +139,37 @@
 				87FA00F91CE619FA00BA95D5 /* VSToken.m */,
 			);
 			path = InputView;
+			sourceTree = "<group>";
+		};
+		87FA01021CE64BA300BA95D5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87FA00FC1CE63E3700BA95D5 /* VSAddMembersViewController.h */,
+				87FA00FD1CE63E3700BA95D5 /* VSAddMembersViewController.m */,
+				87A8211E1CCE346A00DC8AB1 /* UserListViewController.h */,
+				87A8211F1CCE346A00DC8AB1 /* UserListViewController.m */,
+				87A821201CCE346A00DC8AB1 /* UserListViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		87FA01031CE64BB800BA95D5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				87A820E61CCE2A7D00DC8AB1 /* AppDelegate.h */,
+				87A820E71CCE2A7D00DC8AB1 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		87FA01041CE64BD200BA95D5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				87A821231CCE34D300DC8AB1 /* UserTableCell.h */,
+				87A821241CCE34D300DC8AB1 /* UserTableCell.m */,
+				87A821251CCE34D300DC8AB1 /* UserTableCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
