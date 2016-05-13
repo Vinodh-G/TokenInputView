@@ -33,6 +33,37 @@ Highlights the provided token to the TokenInputView, and mark the provided token
 Updates the text in the TokenInputView based on the tokens added to it.
 `- (void)updateTextForTokens;`
 
+The below code snippit shows adding the removeing tokens from `TokenInputView`
+`
+- (void)addUser:(NSDictionary *)user updateTokenView:(BOOL)update
+{
+    VSToken *token = self.tokensCache[user[kEmailKey]];
+    if (!token)
+    {
+        token = [[VSToken alloc] init];
+        token.name = user[kNameKey];
+        token.uniqueId= user[kEmailKey];
+        [self.tokensCache setValue:token forKey:token.uniqueId];
+    }
+    token.timeStamp = [NSDate date];
+    
+    [self.addedMembers addObject:user];
+    [self.addedMembersInputView addToken:token needsLayout:update];
+}
+
+- (void)removeUser:(NSDictionary *)user
+{
+    VSToken *token = self.tokensCache[user[kEmailKey]];
+    if (token)
+    {
+        [self.addedMembers removeObject:user];
+        [self.tokensCache removeObjectForKey:token.uniqueId];
+        [self.addedMembersInputView removeToken:token needsLayout:YES];
+    }
+}
+`
+
+
 ![solarized vim](http://i.imgur.com/JgDnF1N.png)
 ![solarized vim](http://i.imgur.com/l3U0bsq.png)
 ![solarized vim](http://i.imgur.com/jtWx5gs.png)
