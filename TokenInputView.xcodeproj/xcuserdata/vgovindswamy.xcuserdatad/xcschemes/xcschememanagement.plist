@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TestTextView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TokenInputView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>87A821031CCE2A7D00DC8AB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87A821311CCFA21700DC8AB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87A821491CCFA21800DC8AB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87A821541CCFA21800DC8AB1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

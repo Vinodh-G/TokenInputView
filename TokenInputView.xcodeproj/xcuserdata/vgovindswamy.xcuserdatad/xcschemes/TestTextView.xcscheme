@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87A820DF1CCE2A7D00DC8AB1"
-               BuildableName = "TokenInputView.app"
-               BlueprintName = "TokenInputView"
+               BlueprintIdentifier = "87A821311CCFA21700DC8AB1"
+               BuildableName = "TestTextView.app"
+               BlueprintName = "TestTextView"
                ReferencedContainer = "container:TokenInputView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87A820F81CCE2A7D00DC8AB1"
-               BuildableName = "TokenInputViewTests.xctest"
-               BlueprintName = "TokenInputViewTests"
+               BlueprintIdentifier = "87A821491CCFA21800DC8AB1"
+               BuildableName = "TestTextViewTests.xctest"
+               BlueprintName = "TestTextViewTests"
                ReferencedContainer = "container:TokenInputView.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87A821031CCE2A7D00DC8AB1"
-               BuildableName = "TokenInputViewUITests.xctest"
-               BlueprintName = "TokenInputViewUITests"
+               BlueprintIdentifier = "87A821541CCFA21800DC8AB1"
+               BuildableName = "TestTextViewUITests.xctest"
+               BlueprintName = "TestTextViewUITests"
                ReferencedContainer = "container:TokenInputView.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,9 +52,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "87A820DF1CCE2A7D00DC8AB1"
-            BuildableName = "TokenInputView.app"
-            BlueprintName = "TokenInputView"
+            BlueprintIdentifier = "87A821311CCFA21700DC8AB1"
+            BuildableName = "TestTextView.app"
+            BlueprintName = "TestTextView"
             ReferencedContainer = "container:TokenInputView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "87A820DF1CCE2A7D00DC8AB1"
-            BuildableName = "TokenInputView.app"
-            BlueprintName = "TokenInputView"
+            BlueprintIdentifier = "87A821311CCFA21700DC8AB1"
+            BuildableName = "TestTextView.app"
+            BlueprintName = "TestTextView"
             ReferencedContainer = "container:TokenInputView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +94,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "87A820DF1CCE2A7D00DC8AB1"
-            BuildableName = "TokenInputView.app"
-            BlueprintName = "TokenInputView"
+            BlueprintIdentifier = "87A821311CCFA21700DC8AB1"
+            BuildableName = "TestTextView.app"
+            BlueprintName = "TestTextView"
             ReferencedContainer = "container:TokenInputView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

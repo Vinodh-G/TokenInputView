@@ -9,23 +9,22 @@
 /* Begin PBXBuildFile section */
 		87A820E51CCE2A7D00DC8AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A820E41CCE2A7D00DC8AB1 /* main.m */; };
 		87A820E81CCE2A7D00DC8AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A820E71CCE2A7D00DC8AB1 /* AppDelegate.m */; };
-		87A820EB1CCE2A7D00DC8AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A820EA1CCE2A7D00DC8AB1 /* ViewController.m */; };
 		87A820EE1CCE2A7D00DC8AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A820EC1CCE2A7D00DC8AB1 /* Main.storyboard */; };
 		87A820F01CCE2A7D00DC8AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A820EF1CCE2A7D00DC8AB1 /* Assets.xcassets */; };
 		87A820F31CCE2A7D00DC8AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A820F11CCE2A7D00DC8AB1 /* LaunchScreen.storyboard */; };
 		87A820FE1CCE2A7D00DC8AB1 /* TokenInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A820FD1CCE2A7D00DC8AB1 /* TokenInputViewTests.m */; };
-		87A821091CCE2A7D00DC8AB1 /* TokenInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A821081CCE2A7D00DC8AB1 /* TokenInputViewUITests.m */; };
+		87A8211D1CCE32B300DC8AB1 /* UsersList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87A8211C1CCE32B300DC8AB1 /* UsersList.plist */; };
+		87A821211CCE346A00DC8AB1 /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8211F1CCE346A00DC8AB1 /* UserListViewController.m */; };
+		87A821221CCE346A00DC8AB1 /* UserListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A821201CCE346A00DC8AB1 /* UserListViewController.xib */; };
+		87A821291CCE34D300DC8AB1 /* UserTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A821241CCE34D300DC8AB1 /* UserTableCell.m */; };
+		87A8212A1CCE34D300DC8AB1 /* UserTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A821251CCE34D300DC8AB1 /* UserTableCell.xib */; };
+		87FA00FA1CE619FA00BA95D5 /* VSTokenInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA00F71CE619FA00BA95D5 /* VSTokenInputView.m */; };
+		87FA00FB1CE619FA00BA95D5 /* VSToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA00F91CE619FA00BA95D5 /* VSToken.m */; };
+		87FA00FE1CE63E3700BA95D5 /* VSAddMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA00FD1CE63E3700BA95D5 /* VSAddMembersViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		87A820FA1CCE2A7D00DC8AB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87A820D81CCE2A7D00DC8AB1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 87A820DF1CCE2A7D00DC8AB1;
-			remoteInfo = TokenInputView;
-		};
-		87A821051CCE2A7D00DC8AB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 87A820D81CCE2A7D00DC8AB1 /* Project object */;
 			proxyType = 1;
@@ -39,8 +38,6 @@
 		87A820E41CCE2A7D00DC8AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87A820E61CCE2A7D00DC8AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87A820E71CCE2A7D00DC8AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87A820E91CCE2A7D00DC8AB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87A820EA1CCE2A7D00DC8AB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		87A820ED1CCE2A7D00DC8AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87A820EF1CCE2A7D00DC8AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87A820F21CCE2A7D00DC8AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,9 +45,19 @@
 		87A820F91CCE2A7D00DC8AB1 /* TokenInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A820FD1CCE2A7D00DC8AB1 /* TokenInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenInputViewTests.m; sourceTree = "<group>"; };
 		87A820FF1CCE2A7D00DC8AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87A821041CCE2A7D00DC8AB1 /* TokenInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87A821081CCE2A7D00DC8AB1 /* TokenInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenInputViewUITests.m; sourceTree = "<group>"; };
-		87A8210A1CCE2A7D00DC8AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A8211C1CCE32B300DC8AB1 /* UsersList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UsersList.plist; sourceTree = "<group>"; };
+		87A8211E1CCE346A00DC8AB1 /* UserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListViewController.h; sourceTree = "<group>"; };
+		87A8211F1CCE346A00DC8AB1 /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
+		87A821201CCE346A00DC8AB1 /* UserListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserListViewController.xib; sourceTree = "<group>"; };
+		87A821231CCE34D300DC8AB1 /* UserTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableCell.h; sourceTree = "<group>"; };
+		87A821241CCE34D300DC8AB1 /* UserTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableCell.m; sourceTree = "<group>"; };
+		87A821251CCE34D300DC8AB1 /* UserTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTableCell.xib; sourceTree = "<group>"; };
+		87FA00F61CE619FA00BA95D5 /* VSTokenInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTokenInputView.h; sourceTree = "<group>"; };
+		87FA00F71CE619FA00BA95D5 /* VSTokenInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTokenInputView.m; sourceTree = "<group>"; };
+		87FA00F81CE619FA00BA95D5 /* VSToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSToken.h; sourceTree = "<group>"; };
+		87FA00F91CE619FA00BA95D5 /* VSToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSToken.m; sourceTree = "<group>"; };
+		87FA00FC1CE63E3700BA95D5 /* VSAddMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSAddMembersViewController.h; sourceTree = "<group>"; };
+		87FA00FD1CE63E3700BA95D5 /* VSAddMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSAddMembersViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +75,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87A821011CCE2A7D00DC8AB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +83,6 @@
 			children = (
 				87A820E21CCE2A7D00DC8AB1 /* TokenInputView */,
 				87A820FC1CCE2A7D00DC8AB1 /* TokenInputViewTests */,
-				87A821071CCE2A7D00DC8AB1 /* TokenInputViewUITests */,
 				87A820E11CCE2A7D00DC8AB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +92,6 @@
 			children = (
 				87A820E01CCE2A7D00DC8AB1 /* TokenInputView.app */,
 				87A820F91CCE2A7D00DC8AB1 /* TokenInputViewTests.xctest */,
-				87A821041CCE2A7D00DC8AB1 /* TokenInputViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,11 +99,19 @@
 		87A820E21CCE2A7D00DC8AB1 /* TokenInputView */ = {
 			isa = PBXGroup;
 			children = (
+				87FA00FC1CE63E3700BA95D5 /* VSAddMembersViewController.h */,
+				87FA00FD1CE63E3700BA95D5 /* VSAddMembersViewController.m */,
+				87FA00F51CE619FA00BA95D5 /* InputView */,
 				87A820E61CCE2A7D00DC8AB1 /* AppDelegate.h */,
 				87A820E71CCE2A7D00DC8AB1 /* AppDelegate.m */,
-				87A820E91CCE2A7D00DC8AB1 /* ViewController.h */,
-				87A820EA1CCE2A7D00DC8AB1 /* ViewController.m */,
+				87A8211E1CCE346A00DC8AB1 /* UserListViewController.h */,
+				87A8211F1CCE346A00DC8AB1 /* UserListViewController.m */,
+				87A821231CCE34D300DC8AB1 /* UserTableCell.h */,
+				87A821241CCE34D300DC8AB1 /* UserTableCell.m */,
+				87A821251CCE34D300DC8AB1 /* UserTableCell.xib */,
+				87A821201CCE346A00DC8AB1 /* UserListViewController.xib */,
 				87A820EC1CCE2A7D00DC8AB1 /* Main.storyboard */,
+				87A8211C1CCE32B300DC8AB1 /* UsersList.plist */,
 				87A820EF1CCE2A7D00DC8AB1 /* Assets.xcassets */,
 				87A820F11CCE2A7D00DC8AB1 /* LaunchScreen.storyboard */,
 				87A820F41CCE2A7D00DC8AB1 /* Info.plist */,
@@ -131,13 +137,15 @@
 			path = TokenInputViewTests;
 			sourceTree = "<group>";
 		};
-		87A821071CCE2A7D00DC8AB1 /* TokenInputViewUITests */ = {
+		87FA00F51CE619FA00BA95D5 /* InputView */ = {
 			isa = PBXGroup;
 			children = (
-				87A821081CCE2A7D00DC8AB1 /* TokenInputViewUITests.m */,
-				87A8210A1CCE2A7D00DC8AB1 /* Info.plist */,
+				87FA00F61CE619FA00BA95D5 /* VSTokenInputView.h */,
+				87FA00F71CE619FA00BA95D5 /* VSTokenInputView.m */,
+				87FA00F81CE619FA00BA95D5 /* VSToken.h */,
+				87FA00F91CE619FA00BA95D5 /* VSToken.m */,
 			);
-			path = TokenInputViewUITests;
+			path = InputView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,24 +186,6 @@
 			productReference = 87A820F91CCE2A7D00DC8AB1 /* TokenInputViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		87A821031CCE2A7D00DC8AB1 /* TokenInputViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 87A821131CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputViewUITests" */;
-			buildPhases = (
-				87A821001CCE2A7D00DC8AB1 /* Sources */,
-				87A821011CCE2A7D00DC8AB1 /* Frameworks */,
-				87A821021CCE2A7D00DC8AB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				87A821061CCE2A7D00DC8AB1 /* PBXTargetDependency */,
-			);
-			name = TokenInputViewUITests;
-			productName = TokenInputViewUITests;
-			productReference = 87A821041CCE2A7D00DC8AB1 /* TokenInputViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,10 +199,6 @@
 						CreatedOnToolsVersion = 7.3;
 					};
 					87A820F81CCE2A7D00DC8AB1 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 87A820DF1CCE2A7D00DC8AB1;
-					};
-					87A821031CCE2A7D00DC8AB1 = {
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = 87A820DF1CCE2A7D00DC8AB1;
 					};
@@ -233,7 +219,6 @@
 			targets = (
 				87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */,
 				87A820F81CCE2A7D00DC8AB1 /* TokenInputViewTests */,
-				87A821031CCE2A7D00DC8AB1 /* TokenInputViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,19 +229,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				87A820F31CCE2A7D00DC8AB1 /* LaunchScreen.storyboard in Resources */,
+				87A8212A1CCE34D300DC8AB1 /* UserTableCell.xib in Resources */,
 				87A820F01CCE2A7D00DC8AB1 /* Assets.xcassets in Resources */,
 				87A820EE1CCE2A7D00DC8AB1 /* Main.storyboard in Resources */,
+				87A8211D1CCE32B300DC8AB1 /* UsersList.plist in Resources */,
+				87A821221CCE346A00DC8AB1 /* UserListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		87A820F71CCE2A7D00DC8AB1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87A821021CCE2A7D00DC8AB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,9 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87A820EB1CCE2A7D00DC8AB1 /* ViewController.m in Sources */,
+				87FA00FA1CE619FA00BA95D5 /* VSTokenInputView.m in Sources */,
+				87FA00FB1CE619FA00BA95D5 /* VSToken.m in Sources */,
 				87A820E81CCE2A7D00DC8AB1 /* AppDelegate.m in Sources */,
+				87A821291CCE34D300DC8AB1 /* UserTableCell.m in Sources */,
 				87A820E51CCE2A7D00DC8AB1 /* main.m in Sources */,
+				87A821211CCE346A00DC8AB1 /* UserListViewController.m in Sources */,
+				87FA00FE1CE63E3700BA95D5 /* VSAddMembersViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +269,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87A821001CCE2A7D00DC8AB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87A821091CCE2A7D00DC8AB1 /* TokenInputViewUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -299,11 +276,6 @@
 			isa = PBXTargetDependency;
 			target = 87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */;
 			targetProxy = 87A820FA1CCE2A7D00DC8AB1 /* PBXContainerItemProxy */;
-		};
-		87A821061CCE2A7D00DC8AB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */;
-			targetProxy = 87A821051CCE2A7D00DC8AB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -457,28 +429,6 @@
 			};
 			name = Release;
 		};
-		87A821141CCE2A7D00DC8AB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TokenInputViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mycom.TokenInputViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TokenInputView;
-			};
-			name = Debug;
-		};
-		87A821151CCE2A7D00DC8AB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TokenInputViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mycom.TokenInputViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TokenInputView;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,6 +448,7 @@
 				87A8210F1CCE2A7D00DC8AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87A821101CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,14 +457,7 @@
 				87A821121CCE2A7D00DC8AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		87A821131CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				87A821141CCE2A7D00DC8AB1 /* Debug */,
-				87A821151CCE2A7D00DC8AB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

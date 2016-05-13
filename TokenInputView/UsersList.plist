@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Vinny Swa</string>
+		<key>Email</key>
+		<string>vinny@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Govind Swa</string>
+		<key>Email</key>
+		<string>govin@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chita Devi Swa</string>
+		<key>Email</key>
+		<string>chita@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Anith Swa</string>
+		<key>Email</key>
+		<string>ani@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Rek Swa</string>
+		<key>Email</key>
+		<string>rek@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tanu Choudary</string>
+		<key>Email</key>
+		<string>tanu@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pradeep Gowd</string>
+		<key>Email</key>
+		<string>pradeep@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gourav Nayyar</string>
+		<key>Email</key>
+		<string>gourav@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Christane Bale</string>
+		<key>Email</key>
+		<string>bale@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bruce Wayne</string>
+		<key>Email</key>
+		<string>wayne@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Daston</string>
+		<key>Email</key>
+		<string>daston@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Jack Sally</string>
+		<key>Email</key>
+		<string>jack@viny.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Nitiri Ava</string>
+		<key>Email</key>
+		<string>nit@viny.com</string>
+	</dict>
+</array>
+</plist>
