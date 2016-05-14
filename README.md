@@ -38,6 +38,4 @@ The below code snippit shows adding the removeing tokens from `TokenInputView`
 
 ========
 
-![solarized vim](http://i.imgur.com/JgDnF1N.png)
-![solarized vim](http://i.imgur.com/qfJIcIg.png)
-![solarized vim](http://i.imgur.com/jtWx5gs.png)
+![Demo](https://cloud.githubusercontent.com/assets/5305527/15268048/4f14c606-19f1-11e6-900e-8306bea6c14e.gif)
