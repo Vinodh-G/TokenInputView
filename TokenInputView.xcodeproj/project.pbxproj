@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		87A820E01CCE2A7D00DC8AB1 /* TokenInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A820E01CCE2A7D00DC8AB1 /* Token Input View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Token Input View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A820E41CCE2A7D00DC8AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87A820E61CCE2A7D00DC8AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87A820E71CCE2A7D00DC8AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		87A820E11CCE2A7D00DC8AB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87A820E01CCE2A7D00DC8AB1 /* TokenInputView.app */,
+				87A820E01CCE2A7D00DC8AB1 /* Token Input View.app */,
 				87A820F91CCE2A7D00DC8AB1 /* TokenInputViewTests.xctest */,
 			);
 			name = Products;
@@ -175,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */ = {
+		87A820DF1CCE2A7D00DC8AB1 /* Token Input View */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87A8210D1CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputView" */;
+			buildConfigurationList = 87A8210D1CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "Token Input View" */;
 			buildPhases = (
 				87A820DC1CCE2A7D00DC8AB1 /* Sources */,
 				87A820DD1CCE2A7D00DC8AB1 /* Frameworks */,
@@ -187,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = TokenInputView;
+			name = "Token Input View";
 			productName = TokenInputView;
-			productReference = 87A820E01CCE2A7D00DC8AB1 /* TokenInputView.app */;
+			productReference = 87A820E01CCE2A7D00DC8AB1 /* Token Input View.app */;
 			productType = "com.apple.product-type.application";
 		};
 		87A820F81CCE2A7D00DC8AB1 /* TokenInputViewTests */ = {
@@ -241,7 +241,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */,
+				87A820DF1CCE2A7D00DC8AB1 /* Token Input View */,
 				87A820F81CCE2A7D00DC8AB1 /* TokenInputViewTests */,
 			);
 		};
@@ -298,7 +298,7 @@
 /* Begin PBXTargetDependency section */
 		87A820FB1CCE2A7D00DC8AB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 87A820DF1CCE2A7D00DC8AB1 /* TokenInputView */;
+			target = 87A820DF1CCE2A7D00DC8AB1 /* Token Input View */;
 			targetProxy = 87A820FA1CCE2A7D00DC8AB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -465,7 +465,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87A8210D1CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "TokenInputView" */ = {
+		87A8210D1CCE2A7D00DC8AB1 /* Build configuration list for PBXNativeTarget "Token Input View" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87A8210E1CCE2A7D00DC8AB1 /* Debug */,
